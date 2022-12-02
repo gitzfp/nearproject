@@ -1,0 +1,79 @@
+page {
+  position: relative;
+  background-color: #ededed;
+  height: 100%;
+}
+page .login-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100rpx;
+  margin-left: -200rpx;
+  width: 400rpx;
+}
+.weui-btn {
+  border-radius: 6rpx;
+}
+.weui-panel {
+  padding: 40rpx 30rpx;
+}
+.weui-panel:before, .weui-panel:after {
+  border: none;
+}
+.weui-media-box__hd_in-appmsg {
+  width: 100rpx;
+  height: 100rpx;
+}
+.weui-media-box__title {
+  margin-left: 20rpx;
+  font-size: 36rpx;
+  color: #000;
+  line-height: 36rpx;
+}
+.weui-media-box__desc {
+  margin-left: 20rpx;
+  font-size: 24rpx;
+  color: #888;
+  line-height: 36rpx;
+}
+.weui-uploader__img {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 10rpx;
+}
+.ui-post {
+  margin-top: 20rpx;
+}
+.ui-title {
+  margin-bottom: 16rpx;
+  font-size: 32rpx;
+  color: #000;
+}
+.ui-like {
+  font-size: 24rpx;
+}
+.ui-font-red {
+  color: #e64340;
+}
+.ui-font-gray {
+  color: #d8d8d8;
+}
+.ui-font-green {
+  color: #09BB07;
+}
+.ui-list-item {
+  padding: 20rpx;
+  border: 2rpx solid #d8d8d8;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}

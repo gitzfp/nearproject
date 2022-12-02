@@ -1,0 +1,65 @@
+page {
+  position: relative;
+  background-color: #ededed;
+  height: 100%;
+}
+page .login-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100rpx;
+  margin-left: -200rpx;
+  width: 400rpx;
+}
+.weui-cell__hd {
+  width: 160rpx;
+}
+.weui-select {
+  border-right: none;
+  padding-left: 0;
+}
+.weui-cell_select {
+  border-bottom: 2rpx solid #d9d9d9;
+}
+.weui-uploader__file, .weui-uploader__input-box {
+  margin-top: 36rpx;
+  margin-bottom: 36rpx;
+  /* margin-left: 9px; */
+}
+.my-class {
+  width: 80%;
+  background: #CCCCCC;
+}
+.mySelector {
+  color: green;
+}
+.feature-switch {
+  line-height: 204rpx;
+}
+.weui-uploader__file {
+  position: relative;
+}
+.weui-uploader__file .weui-delete-image {
+  position: absolute;
+  color: red;
+  font-size: 26rpx;
+  top: 0;
+  right: -20rpx;
+  width: 80rpx;
+  height: 40rpx;
+}
+map {
+  width: 100%;
+  height: 540rpx;
+  position: relative;
+}
+.current-site-icon {
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
