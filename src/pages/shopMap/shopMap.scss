@@ -1,0 +1,279 @@
+/* pages/shopMap/shopMap.wxss */
+@import "../../lib/css/iconfont.scss";
+
+.top {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 30px 20px;
+  z-index: 999;
+  overflow: hidden;
+}
+.back {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  color: #666;
+  text-align: center;
+  background: rgb(255,255,255);
+  font-size: 50px;
+  border-radius: 50%;
+  float: left;
+}
+.back cover-image{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-top: 15px;
+}
+.search-box {
+  width: 610px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 40px;
+  background: rgb(255,255,255);
+  margin-left: 20px;
+  float: left;
+  overflow: hidden;
+}
+.search-box1 {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background: #eee;
+}
+.search-box .region {
+  width: 199px;
+  line-height: 80px;
+  font-size: 30px;
+  color: #282828;
+  text-align: center;
+  float: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.search-box .shu {
+  width: 1px;
+  height: 80px;
+  background:#ccc;
+  float: left;
+}
+.search-box input {
+  width: 380px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 30px;
+  color: #282828;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  float: left;
+}
+.search-box .placeholder{
+  width: 380px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 30px;
+  color: #ccc;
+  padding: 0 20px;
+  box-sizing: border-box;
+  float: left;
+}
+.add-list-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 998;
+  padding-top: 150px;
+  background: #fff;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.add-list {
+  width: 100%;
+  height: 1000px;
+}
+.add-item {
+  line-height: 40px;
+  padding: 30px 50px;
+  text-align: left;
+  border-top: 2px solid #eee;
+}
+.add-item .title {
+  color: #282828;
+  font-size: 32px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.add-item .add {
+  color: #707070;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.current-site-icon {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.near-list {
+  height: 650px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+.near-item {
+  line-height: 40px;
+  padding: 30px 50px 30px 90px;
+  text-align: left;
+  border-bottom: 2px solid #eee;
+  position: relative;
+}
+.current-site {
+  font-size: 40px;
+  color: #3095F9;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+.near-item .title {
+  color: #282828;
+  font-size: 32px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.near-item .add {
+  color: #707070;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.near-item .title1 {
+  color: #3095F9;
+}
+.near-item .add1 {
+  color: #3095F9;
+}
+.bottom-box {
+  width: 100%;
+  padding: 20px;
+  background: #fff;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 88;
+  overflow: hidden;
+}
+.bottom-box button{
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  border: none;
+  background: #3095F9;
+  color: #fff;
+  font-size: 36px;
+}
+
+.region-box {
+  width: 100%;
+  height: 100%;
+  background: #FFF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+}
+.region-box .region-top {
+  position: relative;
+  font-size: 40px;
+  color: #282828;
+  font-weight: bold;
+  line-height: 100px;
+  text-align: center;
+}
+.region-box .region-back {
+  width: 80px;
+  height: 80px;
+  font-size: 50px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.region-box .region-tabs{
+  line-height: 60px;
+  font-size: 20px;
+}
+.region-tabs .tab {
+  min-width: 100px;
+  max-width: 200px;
+  line-height: 40px;
+  font-size: 20px;
+  color: #3095F9;
+  text-align: center;
+  border: 1px solid #3095F9;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 20px 0 20px 20px;
+  padding: 3px 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.region-list .region-item{
+  font-size: 30px;
+  color: #282828;
+  line-height: 80px;
+  padding: 10px 30px;
+  border-top: 1px solid #eee;
+}
+
+.map-prompt {
+  width: 420px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 24px;
+  color: #707070;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.reload {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.reload .center1 {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #3095F9;
+  border-radius: 50%;
+  margin: 24px auto;
+}
+.reload .center2 {
+  width: 25px;
+  height: 25px;
+  background: #3095F9;
+  border-radius: 50%;
+  margin: 3px auto;
+}

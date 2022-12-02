@@ -1,0 +1,88 @@
+page {
+    position: relative;
+    background-color: #ededed;
+    height: 100%;
+    .login-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -100px;
+        width: 200px;
+    }
+}
+
+.weui-btn {
+    border-radius: 3px;
+}
+
+.weui-panel {
+    padding: 20px 15px;
+}
+
+.weui-panel:before, .weui-panel:after {
+    border: none;
+}
+
+.weui-media-box__hd_in-appmsg {
+    width: 50px;
+    height: 50px;
+}
+
+.weui-media-box__title {
+    margin-left: 10px;
+    font-size: 18px;
+    color: #000;
+    line-height: 18px;
+}
+
+.weui-media-box__desc {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #888;
+    line-height: 18px;
+}
+
+
+.weui-uploader__img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.ui-post {
+    margin-top: 10px;
+}
+
+.ui-title {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #000;
+}
+
+.ui-like {
+    font-size: 12px;
+}
+
+.ui-font-red {
+    color: #e64340;
+}
+
+.ui-font-gray {
+    color: #d8d8d8;
+}
+
+.ui-font-green{
+    color: #09BB07;
+}
+
+
+.ui-list-item {
+    padding: 10px;
+    border: 1px solid #d8d8d8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
